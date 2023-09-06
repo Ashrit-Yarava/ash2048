@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "gym2048"
-version = "0.1.0"
+name = "ash2048"
+version = "1.0.0"
 description = "A gym environment for playing 2048."
 authors = ["Ashrit Yarava <ashdragon95@gmail.com>"]
 readme = "README.md"
@@ -10,6 +10,7 @@ python = "^3.10"
 numpy = "^1.25.1"
 gymnasium = "^0.29.0"
 pygame = "^2.5.1"
+pillow = "^10.0.0"
 
 
 [tool.poetry.group.dev.dependencies]
